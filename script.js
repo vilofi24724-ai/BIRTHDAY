@@ -555,7 +555,7 @@ async function startGalleryStory() {
     if(video){
         video.play().catch(err => console.log(err));
     }
-}}
+}
 
 // ==================== RESPONSIVE ====================
 window.addEventListener('resize', () => {
